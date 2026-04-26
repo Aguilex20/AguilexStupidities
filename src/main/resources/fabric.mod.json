@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "aguilexstupidities",
+  "version": "${version}",
+  "name": "AguilexStupidities",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/aguil/AguilexStupidities"
+  },
+  "license": "MIT",
+  "icon": "assets/aguilexstupidities/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.aguilex.aguilexstupidities.client.AguilexStupiditiesClient"
+    ],
+    "main": [
+      "com.aguilex.aguilexstupidities.AguilexStupidities"
+    ]
+  },
+  "mixins": [
+    "aguilexstupidities.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

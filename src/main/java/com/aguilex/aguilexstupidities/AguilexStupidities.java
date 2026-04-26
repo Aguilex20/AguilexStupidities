@@ -1,6 +1,7 @@
 package com.aguilex.aguilexstupidities;
 
 import com.aguilex.aguilexstupidities.block.ModBlocks;
+import com.aguilex.aguilexstupidities.block.entity.ModBlockEntities;
 import com.aguilex.aguilexstupidities.item.ModCreativeModeTabs;
 import com.aguilex.aguilexstupidities.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -16,6 +17,7 @@ public class AguilexStupidities implements ModInitializer {
     public void onInitialize() {
         ModCreativeModeTabs.registerCreativeModeTabs();
         ModBlocks.registerModBlocks();
+        ModBlockEntities.registerBlockEntities();
         //ModItems.registerModItems();
     }
 }

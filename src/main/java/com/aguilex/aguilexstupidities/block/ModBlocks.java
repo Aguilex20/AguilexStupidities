@@ -1,6 +1,7 @@
 package com.aguilex.aguilexstupidities.block;
 
 import com.aguilex.aguilexstupidities.AguilexStupidities;
+import com.aguilex.aguilexstupidities.block.custom.DuracellBatteryBlock;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -12,7 +13,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 public class ModBlocks {
 
     public static final Block DURACELL_BATTERY = registerBlock("duracell_battery",
-            new Block(BlockBehaviour.Properties.of()));
+            new DuracellBatteryBlock(BlockBehaviour.Properties.of()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);

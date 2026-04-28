@@ -3,7 +3,6 @@ package com.aguilex.aguilexstupidities;
 import com.aguilex.aguilexstupidities.block.ModBlocks;
 import com.aguilex.aguilexstupidities.block.entity.ModBlockEntities;
 import com.aguilex.aguilexstupidities.item.ModCreativeModeTabs;
-import com.aguilex.aguilexstupidities.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

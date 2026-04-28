@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#=#",
+    "#.#",
+    "#=#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dried_kelp"
+    },
+    "=": {
+      "item": "minecraft:iron_ingot"
+    },
+    ".": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "aguilexstupidities:duracell_battery"
+  }
+}

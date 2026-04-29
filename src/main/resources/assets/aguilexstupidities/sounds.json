@@ -1,0 +1,12 @@
+{
+  "thunderbolt_siren": {
+    "sounds": [
+      {
+        "name": "aguilexstupidities:thunderbolt_siren",
+        "volume": 1,
+        "stream": false,
+        "preload": true
+      }
+    ]
+  }
+}

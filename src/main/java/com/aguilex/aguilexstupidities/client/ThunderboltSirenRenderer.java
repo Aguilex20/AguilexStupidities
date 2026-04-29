@@ -29,28 +29,14 @@ public class ThunderboltSirenRenderer implements BlockEntityRenderer<Thunderbolt
         if (blockEntity.getLevel() == null) return;
 
         ModelManager modelManager = Minecraft.getInstance().getModelManager();
-        BakedModel baseModel = modelManager.getModel(new ResourceLocation(AguilexStupidities.MOD_ID, "block/thunderbolt_siren_base"));
         BakedModel headModel = modelManager.getModel(new ResourceLocation(AguilexStupidities.MOD_ID, "block/thunderbolt_siren_head"));
 
-        if (baseModel == modelManager.getMissingModel() || headModel == modelManager.getMissingModel()) return;
+        if (headModel == modelManager.getMissingModel()) return;
 
         BlockState state = blockEntity.getBlockState();
         VertexConsumer buffer = bufferSource.getBuffer(RenderType.cutout());
 
         RandomSource random = RandomSource.create();
-
-        this.dispatcher.getModelRenderer().tesselateBlock(
-                blockEntity.getLevel(),
-                baseModel,
-                state,
-                blockEntity.getBlockPos(),
-                poseStack,
-                buffer,
-                true,
-                random,
-                state.getSeed(blockEntity.getBlockPos()),
-                packedOverlay
-        );
 
         poseStack.pushPose();
 

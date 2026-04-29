@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "YNB",
+    " I "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "B": {
+      "item": "aguilexstupidities:siren_horn"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "aguilexstupidities:thunderbolt_siren"
+  }
+}

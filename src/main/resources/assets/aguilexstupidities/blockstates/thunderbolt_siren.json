@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "aguilexstupidities:block/thunderbolt_siren_base" },
+    "facing=south": { "model": "aguilexstupidities:block/thunderbolt_siren_base", "y": 180 },
+    "facing=west":  { "model": "aguilexstupidities:block/thunderbolt_siren_base", "y": 270 },
+    "facing=east":  { "model": "aguilexstupidities:block/thunderbolt_siren_base", "y": 90 }
+  }
+}

@@ -30,7 +30,6 @@ public class ThunderboltSirenBlockEntity extends BlockEntity {
         if (level.isClientSide && be.currentSpeed > 0.005f) {
             var soundManager = Minecraft.getInstance().getSoundManager();
 
-            // Si no hay sonido sonando o el que había se detuvo, creamos uno nuevo
             if (be.soundInstance == null || !soundManager.isActive(be.soundInstance)) {
                 be.soundInstance = new ThunderboltSirenSoundInstance(be);
                 soundManager.play(be.soundInstance);

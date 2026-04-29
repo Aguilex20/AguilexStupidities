@@ -16,7 +16,7 @@ public class ModBlocks {
     public static final Block DURACELL_BATTERY = registerBlock("duracell_battery",
             new DuracellBatteryBlock(BlockBehaviour.Properties.of().strength(1.0F, 0.25F).requiresCorrectToolForDrops()));
     public static final Block THUNDERBOLT_SIREN = registerBlock("thunderbolt_siren",
-            new ThunderboltSirenBlock(BlockBehaviour.Properties.of().noOcclusion()));
+            new ThunderboltSirenBlock(BlockBehaviour.Properties.of().strength(1.0F, 3.0F).requiresCorrectToolForDrops().noOcclusion()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);

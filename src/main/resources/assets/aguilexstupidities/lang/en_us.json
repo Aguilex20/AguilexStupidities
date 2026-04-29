@@ -1,5 +1,8 @@
 {
   "creativemodetab.aguilexstupidities": "Aguilex Stupidities",
 
-  "block.aguilexstupidities.duracell_battery": "Duracell Battery"
+  "item.aguilexstupidities.siren_horn": "Siren Horn",
+
+  "block.aguilexstupidities.duracell_battery": "Duracell Battery",
+  "block.aguilexstupidities.thunderbolt_siren": "Thunderbolt Siren"
 }

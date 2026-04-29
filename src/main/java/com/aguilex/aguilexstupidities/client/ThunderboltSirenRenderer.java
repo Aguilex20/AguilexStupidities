@@ -6,7 +6,6 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.math.Axis;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.block.BlockRenderDispatcher;
@@ -47,7 +46,7 @@ public class ThunderboltSirenRenderer implements BlockEntityRenderer<Thunderbolt
                 blockEntity.getBlockPos(),
                 poseStack,
                 buffer,
-                true, // Habilita Ambient Occlusion (sombras en esquinas)
+                true,
                 random,
                 state.getSeed(blockEntity.getBlockPos()),
                 packedOverlay
@@ -67,7 +66,7 @@ public class ThunderboltSirenRenderer implements BlockEntityRenderer<Thunderbolt
                 blockEntity.getBlockPos(),
                 poseStack,
                 buffer,
-                true, // Habilita Ambient Occlusion
+                true,
                 random,
                 state.getSeed(blockEntity.getBlockPos()),
                 packedOverlay

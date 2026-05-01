@@ -1,0 +1,11 @@
+{
+  "creativemodetab.aguilexstupidities": "Aguilex Stupidities",
+
+  "item.aguilexstupidities.siren_horn": "Cono de Sirena",
+  "item.aguilexstupidities.geiger_counter": "Contador Geiger",
+  "item.aguilexstupidities.geiger_counter.tooltip": "Detecta bloques radioactivos en un radio de 32 bloques",
+
+
+  "block.aguilexstupidities.duracell_battery": "Bateria Duracell",
+  "block.aguilexstupidities.thunderbolt_siren": "Sirena Thunderbolt"
+}

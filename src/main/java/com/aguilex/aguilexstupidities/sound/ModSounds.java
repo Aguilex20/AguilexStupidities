@@ -9,6 +9,7 @@ import net.minecraft.sounds.SoundEvent;
 public class ModSounds {
 
     public static final SoundEvent THUNDERBOLT_SIREN = registerSoundEvent("thunderbolt_siren");
+    public static final SoundEvent GEIGER_TICK = registerSoundEvent("geiger_tick");
 
     private static SoundEvent registerSoundEvent(String name){
         ResourceLocation id = new ResourceLocation(AguilexStupidities.MOD_ID, name);

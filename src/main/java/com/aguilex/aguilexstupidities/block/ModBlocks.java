@@ -2,6 +2,7 @@ package com.aguilex.aguilexstupidities.block;
 
 import com.aguilex.aguilexstupidities.AguilexStupidities;
 import com.aguilex.aguilexstupidities.block.custom.DuracellBatteryBlock;
+import com.aguilex.aguilexstupidities.block.custom.RadioactiveBlock;
 import com.aguilex.aguilexstupidities.block.custom.ThunderboltSirenBlock;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -17,6 +18,8 @@ public class ModBlocks {
             new DuracellBatteryBlock(BlockBehaviour.Properties.of().strength(1.0F, 0.25F).requiresCorrectToolForDrops()));
     public static final Block THUNDERBOLT_SIREN = registerBlock("thunderbolt_siren",
             new ThunderboltSirenBlock(BlockBehaviour.Properties.of().strength(1.0F, 3.0F).requiresCorrectToolForDrops().noOcclusion()));
+    public static final Block RADIOACTIVE_BLOCK = registerBlock("radioactive_block",
+            new RadioactiveBlock(BlockBehaviour.Properties.of().noOcclusion(), 5000, 20));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);

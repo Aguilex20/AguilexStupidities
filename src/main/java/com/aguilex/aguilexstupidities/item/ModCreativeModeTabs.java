@@ -17,6 +17,7 @@ public class ModCreativeModeTabs {
             FabricItemGroup.builder().title(Component.translatable("creativemodetab.aguilexstupidities"))
                     .icon(() -> new ItemStack(ModBlocks.DURACELL_BATTERY)).displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SIREN_HORN);
+                        output.accept(ModItems.GEIGER_COUNTER);
                         output.accept(ModBlocks.DURACELL_BATTERY);
                         output.accept(ModBlocks.THUNDERBOLT_SIREN);
                     }).build());

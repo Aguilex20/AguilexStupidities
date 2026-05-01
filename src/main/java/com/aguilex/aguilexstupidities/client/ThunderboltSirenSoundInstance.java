@@ -14,7 +14,7 @@ public class ThunderboltSirenSoundInstance extends AbstractTickableSoundInstance
         this.blockEntity = be;
         this.looping = true;
         this.delay = 0;
-        this.volume = 5.0f;
+        this.volume = 10.0f;
         this.x = (float) be.getBlockPos().getX() + 0.5f;
         this.y = (float) be.getBlockPos().getY() + 0.5f;
         this.z = (float) be.getBlockPos().getZ() + 0.5f;

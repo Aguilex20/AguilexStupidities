@@ -8,5 +8,14 @@
         "preload": true
       }
     ]
+  },
+  "geiger_tick": {
+    "sounds": [
+      {
+        "name": "aguilexstupidities:geiger_tick",
+        "volume": 1,
+        "stream": false
+      }
+    ]
   }
 }

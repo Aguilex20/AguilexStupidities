@@ -88,7 +88,7 @@ public class RadiationCounterHud implements HudRenderCallback {
         double py = player.getY();
         double pz = player.getZ();
         BlockPos playerPos = player.blockPosition();
-        int scanRange = 25;
+        int scanRange = 32;
 
         for (BlockPos pos : BlockPos.betweenClosed(playerPos.offset(-scanRange, -scanRange, -scanRange),
                 playerPos.offset(scanRange, scanRange, scanRange))) {

@@ -3,7 +3,7 @@
 
   "item.aguilexstupidities.siren_horn": "Siren Horn",
   "item.aguilexstupidities.geiger_counter": "Geiger Counter",
-  "item.aguilexstupidities.geiger_counter.tooltip": "If it detects a block in a range of 25 blocks, it measures the radioactivity",
+  "item.aguilexstupidities.geiger_counter.tooltip": "Detects a radioactive block in a 32 blocks radius",
 
 
   "block.aguilexstupidities.duracell_battery": "Duracell Battery",

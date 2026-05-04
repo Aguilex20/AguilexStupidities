@@ -16,10 +16,12 @@ public class ModCreativeModeTabs {
             new ResourceLocation(AguilexStupidities.MOD_ID, "aguilexstupidities_tab"),
             FabricItemGroup.builder().title(Component.translatable("creativemodetab.aguilexstupidities"))
                     .icon(() -> new ItemStack(ModBlocks.DURACELL_BATTERY)).displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.SIREN_HORN);
+                        output.accept(ModItems.SCREWDRIVER);
                         output.accept(ModItems.GEIGER_COUNTER);
+                        output.accept(ModItems.SIREN_HORN);
                         output.accept(ModBlocks.DURACELL_BATTERY);
                         output.accept(ModBlocks.THUNDERBOLT_SIREN);
+                        output.accept(ModBlocks.DEMON_CORE);
                     }).build());
 
     public static void registerCreativeModeTabs (){

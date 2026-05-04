@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "screwdriver=true": { "model": "aguilexstupidities:block/demon_core_base" },
+
+    "screwdriver=false": { "model": "aguilexstupidities:block/demon_core_closed" }
+  }
+}

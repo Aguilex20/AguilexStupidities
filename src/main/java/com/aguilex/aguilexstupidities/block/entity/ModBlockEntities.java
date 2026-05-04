@@ -18,6 +18,10 @@ public class ModBlockEntities {
             Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(AguilexStupidities.MOD_ID, "thunderbolt_siren_be"),
                     FabricBlockEntityTypeBuilder.create(ThunderboltSirenBlockEntity::new,
                             ModBlocks.THUNDERBOLT_SIREN).build());
+    public static final BlockEntityType<DemonCoreBlockEntity> DEMON_CORE_BLOCK_ENTITY =
+            Registry.register(BuiltInRegistries.BLOCK_ENTITY_TYPE, new ResourceLocation(AguilexStupidities.MOD_ID, "demon_core_be"),
+                    FabricBlockEntityTypeBuilder.create(DemonCoreBlockEntity::new,
+                            ModBlocks.DEMON_CORE).build());
 
     public static void registerBlockEntities() {
         AguilexStupidities.LOGGER.info("Registering BlockEntities for" + AguilexStupidities.MOD_ID);

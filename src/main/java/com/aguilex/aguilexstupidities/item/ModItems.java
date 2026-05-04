@@ -10,6 +10,7 @@ import net.minecraft.world.item.Item;
 public class ModItems {
     public static final Item SIREN_HORN = registerItem("siren_horn", new Item(new Item.Properties()));
     public static final Item GEIGER_COUNTER = registerItem("geiger_counter", new ItemWithTooltip(new Item.Properties().stacksTo(1), "geiger_counter", 30));
+    public static final Item SCREWDRIVER = registerItem("screwdriver", new Item(new Item.Properties()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(AguilexStupidities.MOD_ID, name), item);

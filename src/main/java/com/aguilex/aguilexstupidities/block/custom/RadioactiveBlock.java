@@ -1,6 +1,7 @@
 package com.aguilex.aguilexstupidities.block.custom;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
 
 public class RadioactiveBlock extends Block {
     private final float radiationAmount;
@@ -12,7 +13,7 @@ public class RadioactiveBlock extends Block {
         this.radius = radius;
     }
 
-    public float getRadiationAmount() {
+    public float getRadiationAmount(BlockState state) {
         return radiationAmount;
     }
 

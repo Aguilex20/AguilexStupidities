@@ -1,6 +1,7 @@
 package com.aguilex.aguilexstupidities.block;
 
 import com.aguilex.aguilexstupidities.AguilexStupidities;
+import com.aguilex.aguilexstupidities.block.custom.DemonCoreBlock;
 import com.aguilex.aguilexstupidities.block.custom.DuracellBatteryBlock;
 import com.aguilex.aguilexstupidities.block.custom.RadioactiveBlock;
 import com.aguilex.aguilexstupidities.block.custom.ThunderboltSirenBlock;
@@ -18,6 +19,8 @@ public class ModBlocks {
             new DuracellBatteryBlock(BlockBehaviour.Properties.of().strength(1.0F, 0.25F).requiresCorrectToolForDrops()));
     public static final Block THUNDERBOLT_SIREN = registerBlock("thunderbolt_siren",
             new ThunderboltSirenBlock(BlockBehaviour.Properties.of().strength(1.0F, 3.0F).requiresCorrectToolForDrops().noOcclusion()));
+    public static final Block DEMON_CORE = registerBlock("demon_core",
+            new DemonCoreBlock(BlockBehaviour.Properties.of().strength(1.0F, 4.0F).requiresCorrectToolForDrops().noOcclusion()));
     public static final Block RADIOACTIVE_BLOCK = registerBlock("radioactive_block",
             new RadioactiveBlock(BlockBehaviour.Properties.of().noOcclusion(), 5000, 20));
 

@@ -12,12 +12,17 @@ public class AguilexStupiditiesClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockEntityRenderers.register(ModBlockEntities.THUNDERBOLT_SIREN_BLOCK_ENTITY, ThunderboltSirenRenderer::new);
+        BlockEntityRenderers.register(ModBlockEntities.DEMON_CORE_BLOCK_ENTITY, DemonCoreRenderer::new);
 
         HudRenderCallback.EVENT.register(new RadiationCounterHud());
 
         ModelLoadingRegistry.INSTANCE.registerModelProvider((manager, out) -> {
             out.accept(new ResourceLocation(AguilexStupidities.MOD_ID, "block/thunderbolt_siren_base"));
             out.accept(new ResourceLocation(AguilexStupidities.MOD_ID, "block/thunderbolt_siren_head"));
+            out.accept(new ResourceLocation(AguilexStupidities.MOD_ID, "block/demon_core_base"));
+            out.accept(new ResourceLocation(AguilexStupidities.MOD_ID, "block/demon_core_screwdriver"));
+            out.accept(new ResourceLocation(AguilexStupidities.MOD_ID, "block/demon_core_top"));
+
         });
     }
 }

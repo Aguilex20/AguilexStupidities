@@ -107,7 +107,7 @@ public class RadiationCounterHud implements HudRenderCallback {
                 if (distance <= maxRadius) {
                     double ratio = distance / maxRadius;
                     float smoothForce = (float) Math.pow(1.0 - ratio, 2);
-                    radiationSum += radBlock.getRadiationAmount() * smoothForce;
+                    radiationSum += radBlock.getRadiationAmount(state) * smoothForce;
                 }
             }
         }

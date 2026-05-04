@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aguilexstupidities:demon_core"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "aguilexstupidities:demon_core",
+          "properties": {
+            "screwdriver": "true"
+          }
+        }
+      ]
+    }
+  ]
+}
